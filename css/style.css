@@ -26,17 +26,6 @@ display:block;
 }
 
 
-.container {
-  display:none;
-height:680px;
-background-color:white;
-	position: relative;
-	width: 1030px;
-	margin: 2em auto;
-	text-align: center;
-	
-}
-
 p {
 	font-family: 'Teko', sans-serif;
 	font-size: 100px;
