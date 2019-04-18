@@ -9,6 +9,126 @@ background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 
 background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
 background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
 }
+.clicker {
+width:1030px;
+height:680px;
+background-color:none;
+outline:none;
+cursor:pointer;
+}
+.hiddendiv{
+display:none;
+height:680px;
+background-color:none;
+}
+.clicker:focus + .hiddendiv{
+display:block;
+}
+
+
+.container {
+  display:none;
+height:680px;
+background-color:white;
+	position: relative;
+	width: 1030px;
+	margin: 2em auto;
+	text-align: center;
+	
+}
+
+p {
+	font-family: 'Teko', sans-serif;
+	font-size: 100px;
+	z-index: 1;
+	color: #282828;
+	
+}
+
+span.after,
+span.before{
+	position: absolute;
+	z-index: -1;
+	
+}
+
+.container .after {
+	top: 12%;
+	left: 43%;
+	width: 52%;
+	height: 65%;
+	background: #FF0000;
+	border-radius: 25px / 25px;
+/* 	animation: mv 1s linear forwards; */
+
+}
+
+.container span.tube {
+	color: #FFF;
+	margin-left: 10px;
+	
+/* 	animation: textcolor 0.30s linear forwards; */
+}
+	@keyframes textcolor {
+		100%  {color: #282828;}}
+
+.container span.before {
+	background: #FF0000;
+	top: 32.5%;
+	left: -20%;
+	border: 18px solid transparent;
+	border-left: 30px solid #FFFFFF;
+	z-index: 33;
+	color: #FFFFFF;
+	visibility: hidden;
+/* 	animation: visibilityBefore 1s linear 0.85s forwards; */
+
+}
+
+@keyframes mv {
+	10%{transform: translatex(-10px);}
+	50%{transform: translatex(-50px);}
+	100% {
+	top: 23%;
+	width: 100px;
+	height: 65px;
+	border-radius: 15px / 20px;
+	transform: translatex(-230px);
+	z-index: 2;
+	}}
+
+	@keyframes visibilityBefore {
+  100%  {visibility: visible;}}
+
+
+.container:hover{cursor: pointer;}
+.container:hover span.tube{
+	animation: textcolor 0.30s linear forwards;
+	margin-left: 0;
+}
+
+.container:hover span.before{
+	animation: visibilityBefore 0.4s linear .25s forwards;
+}
+
+.container:hover span.after{
+	animation: mv 0.25s linear forwards;
+}
+
+ p.msg {
+	font-size: 25px;
+	border: 2px dashed #282828;
+	display: inline-block;
+	padding: 10px;
+	color: #282828;
+	
+}
+
+*,
+*:after,
+*:before {
+	transform: translateZ(0);
+}
 .wrap {
     position:relative;
     width:1080px;
