@@ -24,6 +24,13 @@ background-color:none;
 .clicker:focus + .hiddendiv{
 display:block;
 }
+.container {
+	position: relative;
+	width: 300px;
+	margin: 2em auto;
+	text-align: center;
+	
+}
 
 
 p {
