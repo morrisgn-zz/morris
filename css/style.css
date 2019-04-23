@@ -64,13 +64,6 @@ background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,
   margin: 0;
   background-color: currentColor;
   border-radius: 50%;
-}body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 100%;
-  height: 100vh;
 }
 
 .animation-wrapper {
@@ -123,15 +116,7 @@ background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,
   background-color: currentColor;
   border-radius: 50%;
 }
-body {
-  background: rgb(238,238,238);
-background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
-background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
-background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
-background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
-background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
-}
+
 .container {
 	position: relative;
 	width: 300px;
