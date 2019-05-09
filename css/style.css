@@ -199,7 +199,7 @@ canvas {
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(160deg, #141d30, #232c4a, #3e5176);
+  background: linear-gradient(160deg, #080808, #080808, #080808);
   min-height: 100vh;
 }
 .geminid {
@@ -333,13 +333,13 @@ body {
 }html, body {margin:0;padding:0;width:100%;height:100%;}
 
 body {
-  background: rgb(238,238,238);
-background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
-background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
-background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
-background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
-background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+  background: rgb(8,8,8);
+background: -moz-linear-gradient(top,  rgba(8,8,8) 0%, rgba(8,8,8) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(8,8,8)), color-stop(100%,rgba(8,8,8)));
+background: -webkit-linear-gradient(top,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
+background: -o-linear-gradient(top,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
+background: -ms-linear-gradient(top,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
+background: linear-gradient(to bottom,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
 }
 .container {
 	position: relative;
