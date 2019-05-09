@@ -37,7 +37,7 @@ span.before{
 	left: 43%;
 	width: 52%;
 	height: 65%;
-	background: #FF0000;
+	background: #080808;
 	border-radius: 25px / 25px;
 /* 	animation: mv 1s linear forwards; */
 
@@ -53,7 +53,7 @@ span.before{
 		100%  {color: #282828;}}
 
 .container span.before {
-	background: #FF0000;
+	background: #080808;
 	top: 32.5%;
 	left: -20%;
 	border: 18px solid transparent;
