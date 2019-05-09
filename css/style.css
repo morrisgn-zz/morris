@@ -531,7 +531,7 @@ canvas {
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(160deg, #141d30, #232c4a, #3e5176);
+  background: linear-gradient(160deg, #080808, #080808, #080808);
   min-height: 100vh;
 }
 .geminid {
