@@ -56,8 +56,8 @@ span.before{
 	background: #080808;
 	top: 32.5%;
 	left: -20%;
-	border: 18px solid transparent;
-	border-left: 30px solid #FFFFFF;
+	border: 2px solid transparent;
+	border-left: 5px solid #FFFFFF;
 	z-index: 33;
 	color: #FFFFFF;
 	visibility: hidden;
@@ -114,8 +114,8 @@ span.before{
     width:600px;
 	height:335px;
     margin:0 auto;
-    margin-top:50px;
-    padding:20px;
+    margin-top:5px;
+    padding:2px;
     border-radius:20px;
     box-sizing:border-box;
     border:1px solid #000;
@@ -124,10 +124,10 @@ span.before{
 
 .helper {
     position:absolute;
-    top:20px;
-    left:20px;
-    bottom:20px;
-    right:20px;
+    top:2px;
+    left:2px;
+    bottom:2px;
+    right:2px;
     margin:auto;
     width:600px;
     height:335px;
@@ -141,22 +141,22 @@ span.before{
     content:"";
     display:block;
     position:absolute;
-    bottom:-45px;
-    left:20px;
+    bottom:-4px;
+    left:2px;
     background:black;
-    width:20px;
-    height:20px;
+    width:2px;
+    height:2px;
     border-radius:0 0 5px 5px;
 }
 .helper:before {
     content:"";
     display:block;
     position:absolute;
-    bottom:-45px;
-    right:20px;
+    bottom:-4px;
+    right:2px;
     background:black;
-    width:20px;
-    height:20px;
+    width:2px;
+    height:2px;
     border-radius:0 0 5px 5px;
 }
 .wrap {
@@ -171,24 +171,24 @@ span.before{
 .wrap:after {
     content:"";
     display:block;
-    width:10px;
-    height:10px;
+    width:1px;
+    height:1px;
     background:brown;
     border-radius:100%;
     position:absolute;
     bottom:5px;
-    right:40px;
+    right:4px;
 }
 .wrap:before {
     content:"";
     display:block;
-    width:10px;
-    height:10px;
-    background:brown;
+    width:1px;
+    height:1px;
+    background:gray;
     border-radius:100%;
     position:absolute;
     bottom:5px;
-    right:60px;
+    right:6px;
 }
 canvas {
     display:block;
