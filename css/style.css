@@ -11,7 +11,7 @@ background: linear-gradient(to bottom,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
 }
 .container {
 	position: relative;
-	width: 660px;
+	width: 630px;
 	margin: 2em auto;
 	text-align: center;
 	
@@ -45,7 +45,7 @@ span.before{
 
 .container span.tube {
 	color: #FFF;
-	margin-left: 20px;
+	margin-left: 10px;
 	
 /* 	animation: textcolor 0.30s linear forwards; */
 }
@@ -111,8 +111,8 @@ span.before{
 }
 .wrap {
     position:relative;
-    width:660px;
-	height:360px;
+    width:640px;
+	height:340px;
     margin:0 auto;
     margin-top:0px;
     padding:2px;
@@ -130,7 +130,7 @@ span.before{
     right:-2px;
     margin:auto;
     width:620px;
-    height:340px;
+    height:330px;
     box-shadow:inset 0 0 20px rgba(0, 0, 0, 1);
   background:rgba(128,128,128,0.5);
     border-radius:10px;
