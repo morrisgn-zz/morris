@@ -11,7 +11,7 @@ background: linear-gradient(to bottom,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
 }
 .container {
 	position: relative;
-	width: 620px;
+	width: 640px;
 	margin: 2em auto;
 	text-align: center;
 	
@@ -113,10 +113,10 @@ span.before{
     position:relative;
     width:640px;
 	height:340px;
-    margin:0 auto;
-    margin-top:0px;
+    margin:2 auto;
+    margin-top:2px;
     padding:2px;
-    border-radius:2px;
+    border-radius:3px;
     box-sizing:border-box;
     border:1px solid #000;
     box-shadow:inset 0 0 1px rgba(0, 0, 0, 0.8);
