@@ -1,14 +1,5 @@
 html, body {margin:0;padding:0;width:100%;height:100%;}
 
-body {
-  background: rgb(8,8,8);
-background: -moz-linear-gradient(top,  rgba(8,8,8) 0%, rgba(8,8,8) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(8,8,8)), color-stop(100%,rgba(8,8,8)));
-background: -webkit-linear-gradient(top,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
-background: -o-linear-gradient(top,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
-background: -ms-linear-gradient(top,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
-background: linear-gradient(to bottom,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
-}
 .container {
 	position: fixed;
 	top: 0px;
@@ -39,14 +30,14 @@ span.before{
 	left: 43%;
 	width: 52%;
 	height: 65%;
-	background: #080808;
+	background: #ece4d9;
 	border-radius: 2px / 2px;
 /* 	animation: mv 1s linear forwards; */
 
 }
 
 .container span.tube {
-	color: #080808;
+	color: #ece4d9;
 	margin-left: 10px;
 	
 /* 	animation: textcolor 0.30s linear forwards; */
@@ -55,13 +46,13 @@ span.before{
 		100%  {color: #282828;}}
 
 .container span.before {
-	background: #080808;
+	background: #ece4d9;
 	top: 32.5%;
 	left: -2%;
 	border: 2px solid transparent;
-	border-left: 5px solid #080808;
+	border-left: 5px solid #ece4d9;
 	z-index: 33;
-	color: #080808;
+	color: #ece4d9;
 	visibility: hidden;
 /* 	animation: visibilityBefore 1s linear 0.85s forwards; */
 
@@ -201,7 +192,7 @@ canvas {
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(#080808, #080808, #080808);
+  background: linear-gradient(#ece4d9, #ece4d9, #ece4d9);
   min-height: 100vh;
 }
 .geminid {
