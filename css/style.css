@@ -10,7 +10,7 @@ background: -ms-linear-gradient(top,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
 background: linear-gradient(to bottom,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
 }
 .container {
-	position: absolute;
+	position: relative;
 	width: 520px;
 	margin: 2em auto;
 	text-align: center;
