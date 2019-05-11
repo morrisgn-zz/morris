@@ -11,7 +11,7 @@ background: linear-gradient(to bottom,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
 }
 .container {
 	position: relative;
-	width: 640px;
+	width: 512px;
 	margin: 2em auto;
 	text-align: center;
 	
@@ -57,9 +57,9 @@ span.before{
 	top: 32.5%;
 	left: -2%;
 	border: 2px solid transparent;
-	border-left: 5px solid #FFFFFF;
+	border-left: 5px solid #080808;
 	z-index: 33;
-	color: #FFFFFF;
+	color: #080808;
 	visibility: hidden;
 /* 	animation: visibilityBefore 1s linear 0.85s forwards; */
 
@@ -111,7 +111,7 @@ span.before{
 }
 .wrap {
     position:relative;
-    width:640px;
+    width:512px;
 	height:340px;
     margin:2 auto;
     margin-top:2px;
@@ -129,7 +129,7 @@ span.before{
     bottom:2px;
     right:-2px;
     margin:auto;
-    width:630px;
+    width:510px;
     height:330px;
     box-shadow:inset 0 0 20px rgba(0, 0, 0, 1);
   background:rgba(128,128,128,0.5);
@@ -224,7 +224,7 @@ body {
   -webkit-animation: spark calc(var(--speed) * 1s) calc(var(--delay) * 1s) infinite linear both;
           animation: spark calc(var(--speed) * 1s) calc(var(--delay) * 1s) infinite linear both;
 }
-@media (min-width: 768px) {
+@media (min-width: 512px) {
   .geminid__trail {
     height: 5px;
     width: 50px;
