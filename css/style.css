@@ -245,7 +245,7 @@ body {
           transform: scale(var(--scale));
 }
 .hill {
-  background: #000;
+  background: #ece4d9;
   height: 20vh;
   width: 75vw;
   max-width: 400px;
@@ -271,12 +271,12 @@ body {
   width: 75%;
   bottom: 0;
   right: 0;
-  background: #111;
+  background: #ece4d9;
 }
 .house__house:after {
   content: '';
-  background: #fff9de;
-  box-shadow: 0 0 5px 0 #fff9de;
+  background: #ece4d9;
+  box-shadow: 0 0 5px 0 #;
   position: absolute;
   left: 20%;
   top: 20%;
@@ -289,7 +289,7 @@ body {
   right: 0;
   height: 50%;
   width: 100%;
-  background: #111;
+  background: #ece4d9;
   -webkit-clip-path: polygon(0 100%, 35% 45%, 35% 0, 55% 0, 55% 25%, 100% 25%, 100% 100%);
   clip-path: polygon(0 100%, 35% 45%, 35% 0, 55% 0, 55% 25%, 100% 25%, 100% 100%);
 }
