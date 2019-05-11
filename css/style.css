@@ -1,6 +1,6 @@
 html, body {margin:0;padding:0;width:100%;height:100%;}
 body {
-  background: rgb(8,8,8);
+  background: rgb(236, 228, 217);
 background: -moz-linear-gradient(top,  rgba(236, 228, 217) 0%, rgba(236, 228, 217) 100%);
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236, 228, 217)), color-stop(100%,rgba(236, 228, 217)));
 background: -webkit-linear-gradient(top,  rgba(236, 228, 217) 0%,rgba(236, 228, 217) 100%);
