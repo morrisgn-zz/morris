@@ -10,7 +10,7 @@ background: -ms-linear-gradient(top,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
 background: linear-gradient(to bottom,  rgba(8,8,8) 0%,rgba(8,8,8) 100%);
 }
 .container {
-	position: relative;
+	position: absolute;
 	width: 512px;
 	margin: 2em auto;
 	text-align: center;
@@ -44,7 +44,7 @@ span.before{
 }
 
 .container span.tube {
-	color: #FFF;
+	color: #080808;
 	margin-left: 10px;
 	
 /* 	animation: textcolor 0.30s linear forwards; */
@@ -224,7 +224,7 @@ body {
   -webkit-animation: spark calc(var(--speed) * 1s) calc(var(--delay) * 1s) infinite linear both;
           animation: spark calc(var(--speed) * 1s) calc(var(--delay) * 1s) infinite linear both;
 }
-@media (min-width: 512px) {
+@media (min-width: 510px) {
   .geminid__trail {
     height: 5px;
     width: 50px;
