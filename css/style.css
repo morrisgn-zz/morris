@@ -112,7 +112,7 @@ span.before{
 	transform: translateZ(0);
 }
 .wrap {
-    position: fixed;
+    position: relative;
     width:520px;
 	height:340px;
     margin:2 auto;
@@ -125,7 +125,7 @@ span.before{
 }
 
 .helper {
-    position:fixed;
+    position:absolute;
     top:-2px;
     left:-2px;
     bottom:2px;
