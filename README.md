@@ -1,3 +1,3 @@
 morris
-======<a href="http://www.twitter.com/morrisnaganis">(morrisnaganis)</a>
+====== [morrisganis](http://twitter.com/morrisganis)
 morris ganis
